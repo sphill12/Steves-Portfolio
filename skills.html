@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDTW372C41"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RDTW372C41');
+</script> 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Stephen Phillips</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script>
+        function toggleMenu() {
+            document.getElementById("mobile-menu").classList.toggle("hidden");
+        }
+    </script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-indigo-600">Skills</h1>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-gray-700 text-3xl focus:outline-none" onclick="toggleMenu()">
+                &#9776;
+            </button>
+
+            <nav class="hidden md:flex">
+                <ul class="flex space-x-6 text-gray-700 text-lg">
+                    <li><a href="index.html" class="hover:text-indigo-600">Home</a></li>
+                    <li><a href="about.html" class="hover:text-indigo-600">About</a></li>
+                    <li><a href="skills.html" class="hover:text-indigo-600">Skills</a></li>
+                    <li><a href="education.html" class="hover:text-indigo-600">Education</a></li>
+                    <li><a href="work.html" class="hover:text-indigo-600">Project Work</a></li>
+                    <li><a href="experience.html" class="hover:text-indigo-600">Experience</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Mobile Menu (Hidden by Default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md p-4">
+            <ul class="flex flex-col space-y-4 text-gray-700 text-lg">
+                <li><a href="index.html" class="hover:text-indigo-600 block">Home</a></li>
+                <li><a href="about.html" class="hover:text-indigo-600 block">About</a></li>
+                <li><a href="skills.html" class="hover:text-indigo-600 block">Skills</a></li>
+                <li><a href="education.html" class="hover:text-indigo-600 block">Education</a></li>
+                <li><a href="work.html" class="hover:text-indigo-600 block">Project Work</a></li>
+                <li><a href="experience.html" class="hover:text-indigo-600 block">Experience</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="container mx-auto px-4 py-10">
+        <section class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Skills</h2>
+            
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold text-gray-700">Languages</h3>
+                <p class="text-gray-600">Microsoft SQL, Python (Pandas, NumPy, scikit-learn, PyTorch, Statsmodel, pyodbc, simple_salesforce), R Programming (Tidyverse, dplyr, ggplot2, Caret)</p>
+            </div>
+            
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold text-gray-700">Analytics</h3>
+                <p class="text-gray-600">Market Analysis, Machine Learning, Statistical Analysis, A/B Testing</p>
+            </div>
+            
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold text-gray-700">Data Visualization & Microsoft Office Applications</h3>
+                <p class="text-gray-600">Tableau, Advanced Excel (Pivot Table, VLOOKUP), Power BI, PowerPoint, Word, Outlook, Teams, Azure, SharePoint</p>
+            </div>
+            
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold text-gray-700">Other</h3>
+                <p class="text-gray-600">Project Management, Business Analysis, Problem-Solving Skills, Business Strategy Analysis, Web Scraping, Google Analytics A4, Google Trends, QuickBooks</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white mt-10 p-4 text-center text-gray-600">
+        &copy; 2025 Stephen Phillips. All rights reserved.
+    </footer>
+</body>
+</html>
